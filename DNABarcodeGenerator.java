@@ -1,3 +1,10 @@
+//Task: Create a program which asks user for the length and number of DNA strands and randomly generates those strands 
+//while adhering to certain criteria characteristic to actual DNA.
+//Criteria 1: No repeating a nucleotide (A,C,G,or T) more than twice
+//Criteria 2: C and G nucleotides must make up between 40%-60% of all nucleotides in any strand.
+//Criteria 3: Certain sequences are not allowed, which are specified on line 81.
+
+
 import java.util.*;
 public class DNABarcodeGenerator{
   public static void main(String[]args){
@@ -128,8 +135,5 @@ public class DNABarcodeGenerator{
   return flag;
   }
 
-//I realize I did not follow the instructions to a Tee and will willingly take points off accordingly but this is
-//the way to code this problem that made the most sense to me and saved me a headache, at least partially.
-//Cheers,
-//Landen
+//end of code
 }
